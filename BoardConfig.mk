@@ -42,7 +42,7 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset $(BOARD_RAMDISK_OFFSET) --tags_offset $
 
 # Kernel building
 TARGET_KERNEL_SOURCE := kernel/lge/bullhead
-TARGET_KERNEL_CONFIG := bullhead_defconfig
+TARGET_KERNEL_CONFIG := elementalx_defconfig
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 
@@ -154,3 +154,5 @@ TARGET_PER_MGR_ENABLED := true
 EXTENDED_FONT_FOOTPRINT := true
 
 -include vendor/lge/bullhead/BoardConfigVendor.mk
+# Build opts
+TARGET_GCC_VERSION_ARM64 := 4.9

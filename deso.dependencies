@@ -1,0 +1,14 @@
+[
+  {
+    "repository": "vendor_lge",
+    "target_path": "vendor/lge",
+    "remote": "deso-devices",
+    "branch": "n"
+  },
+  {
+    "repository": "LineageOS/android_kernel_lge_bullhead",
+    "target_path": "kernel/lge/bullhead",
+    "remote": "github",
+    "branch": "cm-14.1"
+  }
+]

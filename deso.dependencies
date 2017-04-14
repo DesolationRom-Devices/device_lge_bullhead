@@ -6,9 +6,9 @@
     "branch": "n"
   },
   {
-    "repository": "LineageOS/android_kernel_lge_bullhead",
+    "repository": "Flash-Kernel/bullhead",
     "target_path": "kernel/lge/bullhead",
     "remote": "github",
-    "branch": "cm-14.1"
+    "branch": "release-7.1.1"
   }
 ]

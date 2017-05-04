@@ -6,9 +6,9 @@
     "branch": "n"
   },
   {
-    "repository": "Flash-Kernel/bullhead",
+    "repository": "kernel_lge_bullhead",
     "target_path": "kernel/lge/bullhead",
-    "remote": "github",
-    "branch": "release-7.1.1"
+    "remote": "deso-devices",
+    "branch": "n"
   }
 ]

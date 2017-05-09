@@ -6,9 +6,9 @@
     "branch": "n"
   },
   {
-    "repository": "kernel_lge_bullhead",
+    "repository": "jollaman999/jolla-kernel_bullhead",
     "target_path": "kernel/lge/bullhead",
-    "remote": "deso-devices",
-    "branch": "n"
+    "remote": "github",
+    "branch": "android-7.1.2"
   }
 ]

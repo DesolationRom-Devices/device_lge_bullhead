@@ -32,7 +32,7 @@ TARGET_NO_BOOTLOADER := true
 
 # Inline kernel building
 TARGET_KERNEL_SOURCE := kernel/lge/bullhead
-TARGET_KERNEL_CONFIG := bullhead_defconfig
+TARGET_KERNEL_CONFIG := jolla-kernel_defconfig
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 
 TARGET_KERNEL_ARCH := arm64

@@ -16,5 +16,6 @@ TARGET_MANUFACTURER := LGE
 PRODUCT_NAME := deso_bullhead
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT=google/bullhead/bullhead:7.1.2/N2G47O/3852959:user/release-keys \
-    PRIVATE_BUILD_DESC="bullhead-user 7.1.2 N2G47O 3852959 release-keys"
+    PRODUCT_NAME=bullhead \
+    BUILD_FINGERPRINT="google/bullhead/bullhead:7.1.2/N2G47Z/4045513:user/release-keys" \
+    PRIVATE_BUILD_DESC="bullhead-user 7.1.2 N2G47Z 4045513 release-keys"
